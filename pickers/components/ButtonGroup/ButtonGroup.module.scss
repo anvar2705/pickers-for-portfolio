@@ -1,0 +1,11 @@
+@import "src/assets/styles/variables";
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    margin: 0 10px;
+  }
+}

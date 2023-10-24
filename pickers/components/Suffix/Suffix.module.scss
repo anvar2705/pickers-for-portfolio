@@ -1,0 +1,26 @@
+@import "src/assets/styles/variables";
+
+.root {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  margin: 0 8px 0 0;
+  background: none;
+  cursor: pointer;
+}
+
+.visible {
+  & path,
+  &:hover path {
+    fill: $color-main;
+  }
+}
+
+.clear {
+  &:hover {
+    svg {
+      fill: $color-danger !important;
+    }
+  }
+}

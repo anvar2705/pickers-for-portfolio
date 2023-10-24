@@ -1,0 +1,44 @@
+@import "src/assets/styles/variables";
+
+.root {
+  margin-bottom: 20px;
+  color: $color-text-primary;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: center;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 57px;
+  font-weight: 600;
+  line-height: 69px;
+}
+
+.input {
+  width: 96px;
+  height: 80px;
+  border: none;
+  border-radius: $border-radius;
+  margin: 0 15px;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  outline: none;
+  text-align: center;
+}
+
+.primary {
+  background-color: $color-blue-3-ghost;
+}
+
+.secondary {
+  background-color: $color-blue-5-ghost;
+}
